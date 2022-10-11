@@ -1,0 +1,91 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.theme {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.theme:hover {
+    color: #F57E9A;
+}
+
+.title-theme {
+    color: #F57E9A;
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+
+.active-theme {
+    color: #F57E9A;
+}
+
+.active-theme:hover {
+    color: #F57E9A;
+}
+
+.nav-theme{
+    border-style: none;
+}
+
+
+@media screen and (min-width: 400px){
+    .nav-theme{
+        background-image: linear-gradient(#ebedf8,  #ebedf8c2, white);
+    }
+}
+
+
+@media screen and (min-width: 600px){
+        .nav-theme{
+            background-image: linear-gradient(#F8F4EB,  #f8f4ebcb, white);
+        }
+}
+
+
+
+
+
+
+@media screen and (max-width: 400px){
+    .nav-theme{
+        background-image: linear-gradient(#f5ebf8,  #f5ebf8d0, white);
+    }
+}
+
+
+
+.nav-theme:hover {
+    color: #F57E9A;
+}
+
+.foot-theme {
+    color: #F57E9A;
+    
+}
+
+.foot-container{
+    background-image: linear-gradient(white, #f8f4ebf1, #F8F4EB);
+}
+
+.foot-theme:hover {
+    color: black;
+}
+
+.foot-title {
+    color: #F57E9A;
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.price {
+    font-weight: 700;
+}
